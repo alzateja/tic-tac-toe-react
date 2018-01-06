@@ -1,0 +1,6 @@
+class RootStore {
+  constructor() {
+    this.messageStore = new MessageStore(this)
+    this.boardStore = new BoardStore(this)
+  }
+}
