@@ -1,0 +1,15 @@
+.gameTile {
+  height: 150px;
+  min-width: 150px;
+  font-size: 25px;
+  background-color: white; 
+  align-self: center;
+}
+
+#board0, #board1, #board3, #board4, #board6, #board7 {
+  border-right: black solid 3px;
+}
+
+#board3, #board4, #board5, #board6, #board7, #board8 {
+  border-top: black solid 3px;
+}

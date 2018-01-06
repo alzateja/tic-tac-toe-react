@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Droid+Sans|Oswald|Roboto');
+
+#app {
+  font: 14px 'Roboto', sans-serif;
+  color: black;
+  background-size: cover;
+}
+
+.jumbotron {
+  width:80%;
+  border: 10px #045680 solid;
+  text-align: center;
+  background-color: slategray;
+  margin: 20px auto 0;
+  padding: 30px;
+}
+
+.nav-bar {
+  width: 86%;
+  border: 4px black solid;
+  margin: 0 auto;
+  background-color: honeydew;
+}
+
+.nav-bar a {
+  color: black;
+  display:inline-block;
+  width:33%;
+  margin:0;
+  padding:0;
+  font-size: 25px;
+  text-align: center;
+  border: 1.5px solid black;
+}
+
+
+.banner-heading {
+  color: white;
+  font-family: 'Courgette', cursive;
+  font-size: 60px;
+}
+
+.home-page-image {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  border-radius: 10%;
+  padding: 4px;
+  border: black 5px solid;
+}
+
+.message-box {
+  clear: both;
+  background-color: rgba(63, 129, 192, 0.5);
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.message-box-header {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.item-complete {
+  text-decoration: line-through;
+  color: red;
+}
+
+.hello-world {
+  background-color: rgba(123, 121, 12, 0.7);
+  margin: 20px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.hello-world-button {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  background-color: #1400e3;
+}
+
+.list-container {
+
+  width: 100%;
+  padding:20px;
+}
+
+.list-container h1 {
+  text-align: center;
+  color: black;
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.no-items-found {
+  text-align: center;
+  color: black;
+}
+
+.list-container table{
+  border: 3px solid black;
+  text-align: center;
+  font-size: 40px;
+  margin: 70px auto;
+  width: 70%;
+}
+
+.list-container tr th,td {
+  border: 3px solid black;
+}
+
+.list-container tr th {
+  background-color: black;
+  color: white;
+}
+
+.input-form {
+  border: 10px solid cadetblue;
+  padding: 20px;
+  width: 60%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.api-response-container {
+  background-size: cover;
+  height: 600px;
+}
+
+
+.api-label {
+  display: inline-block;
+  color: white;
+}
+
+table {
+  width: 437px;
+  height: 437px;
+  margin: 80px auto 5px auto;
+}
+
+td {
+  height:150px;
+  width:150px;
+}
+
+td img {
+  height: 140px;
+  width: 140px;
+  border-radius:10%;
+}
+
+
+.table-row1 td {
+  border-bottom: 3px solid black;
+}
+
+.table-row2 td {
+  border-bottom: 3px solid black;
+}
+
+.column2 {
+  border-left: 3px solid  black ;
+  border-right: 3px solid black ;
+}
