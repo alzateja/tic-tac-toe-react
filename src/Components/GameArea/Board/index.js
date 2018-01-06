@@ -1,28 +1,26 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
-import { getBoardState, getCurrentPlayer } from './state/selectors.js'
-import { newGameState} from
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { getBoardState, getCurrentPlayer } from './state/selectors.js';
 
-import './styles.css'
+import './styles.css';
 
-import GameTile from './GameTile'
+import GameTile from './GameTile';
 
 export class Board extends Component {
   static propTypes = {
-    board: PropTypes.array,
-  }
+    board: PropTypes.array
+  };
   static defaultProps = {
-    board: [],
-  }
+    board: []
+  };
   componentDidMount() {
-    console.log(this.props)
+    console.log(this.props);
   }
 
-  onSquareClick = (e) => {
-    console.log(e.currentTarget)
-    console.log(e.currentTarget.id)
-  }
+  onSquareClick = e => {
+    console.log(e.currentTarget);
+    console.log(e.currentTarget.id);
+  };
 
   render() {
     return (
@@ -36,27 +34,8 @@ export class Board extends Component {
           />
         ))}
       </div>
-    )
+    );
   }
 }
 
-// List.propTypes = {
-// 	items: PropTypes.array.isRequired,
-// };
-//
-// const mapStateToProps = state => ({
-// 	items: state.list.items,
-// });
-
-const mapStateToProps = (state) => ({
-  board: getBoardState(state),
-  currentPlayer: getCurrentPlayer(state),
-})
-
-// const mapDispatchToProps = (dispatch) => ({
-//   getCurrentPolicy: () => { dispatch(fetchPolicyData()) },
-//   setCurrentPolicy: (policy) => { dispatch(setCurrentPolicy(policy)) },
-// })
-
-//
-export default connect(mapStateToProps, null)(Board)
+export default Board;
